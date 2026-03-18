@@ -36,20 +36,15 @@ Diseñé e implementé un sistema basado en tres componentes principales:
 
 ## Arquitectura del sistema
 
+El sistema fue diseñado en tres capas funcionales:
 
-
-Catalogos (datos maestros)
-        ↓
-Ventas (transacciones)
-        ↓
-Inventario (conteo base + stock calculado)
-
-
----
+- **Catalogos** → concentra los datos maestros y estandariza los atributos del producto
+- **Ventas** → registra las transacciones y genera automáticamente el `ID_Camisa`
+- **Inventario** → conserva el conteo base y calcula el stock actual con base en las ventas posteriores al corte
 
 ## Automatización implementada
 
-El sistema incorpora múltiples componentes de automatización:
+Para convertir un registro manual en un sistema funcional de control, implementé las siguientes automatizaciones:
 
 - Generación automática de `ID_Camisa` a partir de atributos del producto (marca, cuello, manga, estampado, color y talla)
 - Validación de datos mediante catálogos maestros para asegurar consistencia en la captura
