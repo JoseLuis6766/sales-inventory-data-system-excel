@@ -1,14 +1,18 @@
 # Sistema de Ventas e Inventario en Excel
 
-Sistema estructurado de ventas e inventario desarrollado en Excel para una microempresa, con catálogos maestros, generación automática de identificadores de producto, validación de datos y conciliación dinámica de stock.
+Sistema estructurado de ventas e inventario desarrollado en Excel para una microempresa, con catálogos maestros, generación automática de identificadores de producto, validación de datos y conciliación dinámica de stock para poder analizar datos confiables y consistentes.
 
 ---
 
 ## Resumen del proyecto
 
-Este proyecto surge de una necesidad real: la microempresa registraba sus ventas manualmente en libreta, con descripciones inconsistentes y alta ambigüedad, lo que dificultaba el control de inventario, la trazabilidad de productos y el análisis de ventas.
+Este proyecto surge de una necesidad real: la microempresa registraba sus ventas manualmente, con descripciones inconsistentes y alta ambigüedad, lo que dificultaba el control de inventario, la trazabilidad de productos y el análisis de ventas.
 
 Ante este problema, diseñé y construí desde cero un sistema estructurado en Excel, definiendo la arquitectura del archivo, los atributos del producto, las reglas de captura y la lógica de automatización, con el objetivo de transformar registros manuales no estandarizados en una base de datos confiable, consistente y analizable.
+Antes de la normalizacion de los datos:
+<img width="493" height="244" alt="image" src="https://github.com/user-attachments/assets/44eecb24-134e-4d53-a34b-742e04966f39" />
+Como se ve ahora con la normalizacion de los datos: 
+<img width="1321" height="182" alt="image" src="https://github.com/user-attachments/assets/c507b769-17eb-4227-834d-1f76edcb7cd6" />
 
 ---
 
